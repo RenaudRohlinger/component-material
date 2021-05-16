@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+
+/*# sourceMappingURL=/example.f69400ca.css.map */

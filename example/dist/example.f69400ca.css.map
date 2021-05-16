@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"example.f69400ca.css","sourceRoot":"..","sourcesContent":["html,\nbody {\n  height: 100vh;\n  overflow: hidden;\n  border: none;\n  margin: 0;\n  padding: 0;\n}\n\n#root {\n  height: 100vh;\n}\n"]}

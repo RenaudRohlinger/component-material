@@ -11,8 +11,8 @@ function createMaterial(
 ) {
   return class ComponentMaterial extends baseMaterial {
     constructor(parameters = {}) {
-      const entries = Object.keys(uniforms)
       super(parameters)
+      const entries = Object.keys(uniforms)
       this.setValues(parameters)
 
       entries.forEach(key => {
@@ -26,10 +26,10 @@ function createMaterial(
 
     onBeforeCompile(shader: Shader) {
       const handler = {
-        get: function(target: Shader, key: keyof Shader) {
+        get: function (target: Shader, key: keyof Shader) {
           return getKeyValue(target, key)
         },
-        set: function(target: Shader, key: keyof Shader, value: any) {
+        set: function (target: Shader, key: keyof Shader, value: any) {
           setKeyValue(target, key, value)
           // Accoring to ProxyHandler, the set function should return a boolean.
           return true
