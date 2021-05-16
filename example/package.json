@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@react-three/drei": "^2.2.7",
+    "@react-three/drei": "^4.3.3",
     "react-app-polyfill": "^1.0.0",
     "react-use-gesture": "^8.0.1",
     "tweakpane": "^1.5.7",

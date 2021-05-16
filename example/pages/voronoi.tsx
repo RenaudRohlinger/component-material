@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie11'
 import * as React from 'react'
 import { Suspense, useEffect, useRef } from 'react'
-import { Canvas, useFrame, useLoader, useThree } from 'react-three-fiber'
+import { Canvas, useFrame, useLoader, useThree } from '@react-three/fiber'
 import { Sphere } from '@react-three/drei'
 import { useTweaks } from 'use-tweaks'
 import * as THREE from 'three'

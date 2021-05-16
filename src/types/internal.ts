@@ -17,7 +17,7 @@ import {
   MeshMatcapMaterialProps,
   LineDashedMaterialProps,
   LineBasicMaterialProps,
-} from 'react-three-fiber'
+} from '@react-three/fiber'
 
 export type ProxyProps<Child extends string | string[]> = {
   children: Child
